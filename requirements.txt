@@ -1,0 +1,12 @@
+# Member 2 - Adaptive Interview Engine
+# Core module uses Python Standard Library (dataclasses, enum, typing)
+# No external runtime dependencies required for core adaptive interview logic.
+
+# Speech-to-Text dependencies (optional / local STT)
+openai-whisper>=20231117
+
+# Text-to-Speech dependencies (optional / local TTS)
+pyttsx3>=2.90
+
+# Testing dependencies (optional)
+pytest>=8.0.0
